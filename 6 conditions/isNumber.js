@@ -14,13 +14,15 @@
 */
 let numb = "john";
 
-if (numb == 0){
-    console.log("It is zero");
-}else if(numb > 0){
-    console.log("Given value is positive");
-}else if(numb < 0){
-    console.log("Given value is negative");
-}
-else{
-    console.log("The given data is not a number");
+if(typeof(numb)=="number"){
+    if (numb == 0){
+        console.log("It is zero");
+    }else if(numb > 0){
+        console.log("Given value is positive");
+    }else if(numb < 0){
+        console.log("Given value is negative");
+    }
+
+}else{
+    console.log("The given data is not a number.");
 }

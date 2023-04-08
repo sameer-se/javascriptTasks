@@ -9,7 +9,18 @@
     then output should be 2, 4, 6, 8 ,10 
 
 */
+generateEvenNumber(10);
 
+function  generateEvenNumber(evenNum){
+    for (i=1; i <= evenNum; i++){
+        if (i%2 === 0){
+            // console.log(i);
+        }else{
+            console.log(i);
+        }
+        // console.log(i);
+    }
+}
 
 /* 
 
