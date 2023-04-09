@@ -1220,3 +1220,14 @@ let countries = [
     array functions
     
 */
+
+findCountryCode("China")
+
+function findCountryCode(country){
+
+    for (i=0; i < countries.length; i++){
+        if (countries[i].name == country){
+            console.log(countries[i].code);
+        }
+    }
+}

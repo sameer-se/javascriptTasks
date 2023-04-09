@@ -39,3 +39,15 @@ function  generateEvenNumber(evenNum){
 
 
 */
+identifyEvenNumber(2);
+function identifyEvenNumber(evenNum){
+    if(typeof(evenNum)=="number"){
+        if(evenNum%2 == 0){
+            console.log("Yes, it is an even number.");
+        }else{
+            console.log("No, it is not an even number.");
+        }
+    }else{
+        console.log("Provided data is not an number.");
+    }
+}
