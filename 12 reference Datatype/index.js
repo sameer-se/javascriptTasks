@@ -15,9 +15,9 @@
 
 */
 
-let country1 = "nepal"
-let country2 = country1
-country2 = "Indai"
+let country1 = "nepal";
+let country2 = country1;
+country2 = "India";
 console.log(country1, country2);  // the value of country1 remains the same
 
 let num1 = 1;
