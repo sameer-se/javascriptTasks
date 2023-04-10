@@ -14,7 +14,7 @@
 */
 let numb = "john";
 
-if(typeof(numb)=="number"){
+if(typeof(numb)==="number"){
     if (numb == 0){
         console.log("It is zero");
     }else if(numb > 0){

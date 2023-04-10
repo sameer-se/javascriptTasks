@@ -29,3 +29,17 @@
 
 
 */
+/* MULTIPLICATION OF 8 UP  TO 10 */
+for(i=1; i <= 10; i++){
+    let multi = 8 * i ;
+    console.log(`8 x ${i} = ${multi}`);
+}
+
+console.log("AND");
+
+/* MULTIPLICATION OF 10 FROM 11 TO 20 */
+
+for(i=11; i <= 20; i++){
+    let multi = 10 * i ;
+    console.log(`10 x ${i} = ${multi}`);
+}

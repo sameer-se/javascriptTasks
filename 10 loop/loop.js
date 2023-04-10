@@ -33,3 +33,7 @@ let todos = [
     task three is completed
 
 */
+for(i = 0; i < todos.length; i++){
+    let tasks = todos[i].completed ? 'completed' : 'incompleted';
+    console.log(`${todos[i].title} is ${tasks}`);
+}

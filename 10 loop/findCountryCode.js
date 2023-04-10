@@ -1230,4 +1230,4 @@ function findCountryCode(country){
             console.log(countries[i].code);
         }
     }
-}
+} 

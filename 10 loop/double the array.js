@@ -15,6 +15,14 @@ let arr1 = [1, 2, 3, 4];
 */
 
 for (i=0; i < arr1.length; i++){
-    (arr1[i]*2);
-    console.log(arr1);
+    if(i < arr1.length){
+        (arr1[i]*2);
+    }else{
+        console.log(arr1);
+    }
+   
+    
+    
 }
+
+
