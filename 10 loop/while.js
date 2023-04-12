@@ -242,3 +242,6 @@ let users = [
     <name> lives in <street> , <city>
 
 */
+for(i=0; i < users.length; i++){
+    console.log(`${users[i].name} lives in ${users[i].address.street}, ${users[i].address.city}.`);
+}
