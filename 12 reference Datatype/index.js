@@ -35,13 +35,15 @@ let person1 = {
     lets assume person2 is of country USA too
     so let reuse person1 varaible
 */
-let person2 = person1  // doesnot copy the value of person 1, rather points to the location of person1 
+let person2 = {person1}  // doesnot copy the value of person 1, rather points to the location of person1 
 person2.country = "Nepal"
+
+// let person2 = { person1 };  // creates a new object with the same properties as person1
+// person2.country = "Nepal";  // modifies the country property of the new object
 
 /* 
     now all the values of person1 is copied to person 2
 */
-
 
 console.log("person2", person2);
 
@@ -51,8 +53,9 @@ console.log("person2", person2);
     and check what happens to person1's country if there seems to be a problem fix it. // HINT spread operator. 
 */
 
-console.log("person2-country", person2.country);
+
 console.log("person1-country", person1.country);
+console.log("person2-country", person2.country);
 
 
 
